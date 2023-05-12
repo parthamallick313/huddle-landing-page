@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-img {
+    background-image: url("/images/bg-mobile.svg");
+    @apply bg-top bg-cover bg-no-repeat xl:bg-left xl:bg-contain;
+  }
+
+  @media (min-width: 376px) {
+    .bg-img {
+      background-image: url("/images/bg-desktop.svg");
+    }
+  }
+}

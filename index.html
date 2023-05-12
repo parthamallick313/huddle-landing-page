@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: #e882e8;
+        font-weight: bold;
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="flex flex-col justify-center items-center gap-1 min-w-[336px] min-h-0 py-8 bg-[#674baf] bg-img md:h-screen"
+  >
+    <header class="w-full self-start px-8 lg:max-w-[1440px] lg:px-[4.5rem]">
+      <img src="/images/logo.svg" alt="" class="w-[8.25rem] lg:w-48" />
+    </header>
+
+    <main
+      class="max-w-xl mt-[3.25rem] px-9 md:max-w-none lg:max-w-[1440px] lg:px-[4.5rem]"
+    >
+      <div
+        class="flex flex-col gap-10 text-center md:flex-row md:gap-5 md:text-left lg:gap-11"
+      >
+        <div class="md:max-w-sm lg:max-w-md xl:max-w-3xl">
+          <img
+            src="/images/illustration-mockups.svg"
+            alt=""
+            class="md:w-full"
+          />
+        </div>
+
+        <div
+          class="flex flex-col items-center gap-6 md:flex-1 lg:grid lg:grid-cols-1 xl:gap-0"
+        >
+          <h1
+            class="text-2xl font-poppins font-bold text-white lg:self-end lg:pr-24 lg:leading-10 xl:text-[40px] xl:leading-[3.5rem]"
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+
+          <p class="text-white lg:pr-6 xl:text-lg">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+
+          <button
+            class="w-fit py-3 px-[4.5rem] text-sm text-[#674baf] bg-white rounded-full shadow-xl md:self-start lg:px-16 lg:text-base hover:bg-[#e882e8] hover:text-white"
+          >
+            Register
+          </button>
+
+          <div
+            class="flex justify-center gap-3 mt-8 lg:self-end lg:justify-self-end lg:gap-4 xl:-mb-[4.5rem]"
+          >
+            <a href="#">
+              <ion-icon
+                name="logo-facebook"
+                class="p-2 text-white border border-white rounded-full lg:text-2xl hover:text-[#e882e8] hover:border-[#e882e8]"
+              ></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon
+                name="logo-twitter"
+                class="p-2 text-white border border-white rounded-full lg:text-2xl hover:text-[#e882e8] hover:border-[#e882e8]"
+              ></ion-icon>
+            </a>
+
+            <a href="https://www.frontendmentor.io/profile/parthamallick313">
+              <ion-icon
+                name="logo-instagram"
+                class="p-2 text-white border border-white rounded-full lg:text-2xl hover:text-[#e882e8] hover:border-[#e882e8]"
+              ></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Partha Mallick</a>.
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
